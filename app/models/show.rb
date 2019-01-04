@@ -11,5 +11,5 @@ class Show < ActiveRecord::Base
     Show.order(rating: :asc).first.name
   end
 
-  
+
 end
